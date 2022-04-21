@@ -1,0 +1,110 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   background: black;    
+}
+.container{
+   
+   position: absolute;
+   width: 550px;
+   height: 550px;
+   left: 62px;
+   top: 64px;
+   background: #1F2937;
+}
+.container2{
+   position: absolute;
+   width: 354px;
+   height: 80px;
+   left: 52px;
+   top: 45px;
+   font-family: 'Karla';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 40px;
+   line-height: 15px;
+   /* or 100% */
+   letter-spacing: -0.025em;
+   color: white;    
+}
+#rand {
+   color: #4ADF86;
+}
+#tag {
+   font-family: 'Inter', sans-serif;
+   font-weight: normal;
+   font-size: 20px;
+   color: #D5D4D8;
+}
+#genButton {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 9px 17px 9px 15px;  
+   margin-top: 25px;
+   margin-bottom: 25px;
+   position: absolute;
+   width: 223px;
+   height: 42px;
+   left: 52px;
+   top: 275px;
+   
+   background: #10B981;
+   /* shadow/sm */
+
+   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+   border-radius: 6px;
+}
+
+label[for="pwdlen"] {
+   position: absolute;
+   height: 35px;
+   left: 100px;
+   top: 220px;
+   margin-top:25px;
+   color: #059669;
+}
+#pwdlen {
+   width: 50px;
+   text-align: center;
+   margin-left: 3px;
+}
+hr {
+   position: absolute;
+   
+   width: 446px;
+   height: 0px;
+   left: 50px;
+   top: 364px;
+
+   border: 1px solid #2F3E53;
+}
+.col-1{
+   position: absolute;
+   top: 400px;
+   left: 42px;
+}
+.col-2{
+   position: absolute;
+   top: 450px;   
+   left: 42px;
+   
+}
+row{
+   padding: 15px;
+}
+input {
+   color: black;
+   
+}
+.copyBtn{
+    
+   background: #10B981;
+   /* shadow/sm */
+
+   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+   border-radius: 6px;
+
+   margin: 5px;
+}

@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="container2">
+                <p>Generate a</p>
+                <p id="rand">random password</p>
+                <p id="tag"> Never use an insecure password again.</p>
+            </div>
+            <label for="pwdlen">Enter password length:
+                <input id="pwdlen" type="number" min="6" value="" placeholder="#"></input>
+            </label>
+            <button id="genButton" onclick="generatePassword()">Generate passwords</button>
+            <hr>
+                  
+            
+            <div class="col-1">
+               <row><input type= "text" id= "label1" disabled="disabled">
+                  <button class="copyBtn" id="0" onclick="copyPwd(this)">copy</button>
+               </row>
+               <row><input type= "text" id= "label2" disabled="disabled">
+                  <button class="copyBtn" id="1" onclick="copyPwd(this)">copy</button>
+               </row>
+            </div>
+            <div class="col-2">
+               <row><input type= "text" id= "label3" disabled="disabled">
+                  <button class="copyBtn" id="2" onclick="copyPwd(this)">copy</button>
+               </row>
+               <row><input type= "text" id= "label4" disabled="disabled">
+                  <button class="copyBtn" id="3" onclick="copyPwd(this)">copy</button>
+               </row>
+            </div>
+            
+            <!-- <div id="rectangle1">
+                <input type= "text" id= "label1" disabled="disabled">
+                <button class="copyBtn" id="0" onclick="copyPwd(this)">copy</button>
+            </div>
+            <div id="rectangle2">
+                <input type= "text" id= "label2" disabled="disabled">
+                <button class="copyBtn" id="1" onclick="copyPwd(this)">copy</button>
+            </div>
+            <div id="rectangle3">
+                <input type= "text" id= "label3" disabled="disabled">
+                <button class="copyBtn" id="2" onclick="copyPwd(this)">copy</button>
+            </div>
+            <div id="rectangle4">
+                <input type= "text" id= "label4" disabled="disabled">
+                <button class="copyBtn" id="3" onclick="copyPwd(this)">copy</button>
+            </div> -->
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
+
+
+
+
